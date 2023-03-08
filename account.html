@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/elj8uzn.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-julien.css">
+    <title>My account</title>
+</head>
+
+<body>
+    <!--Nav bar-->
+    <div class="background-myaccount">
+        <nav>
+            <ul>
+                <li>Histoires publiques</li>
+                <li>Amis</li>
+            </ul>
+            <img id="logo-menu" src="./assets/Logo TST-02 redim.png" alt="logo du site TheStoryTeller">
+            <ul>
+                <li>Partages</li>
+                <li id="left">Histoires</li>
+            </ul>
+            <img id="reading" src="./assets/reading.png" alt="personnage en train de lire un livre"
+                aria-label="aller vers mon compte, ou se déconnecter">
+        </nav>
+
+        <main>
+            <!--My account form-->
+            <div class="account-bloc">
+                <form action="" method="get" class="form-example">
+                    <div class="items">
+                        <label for="pseudo">Pseudo actuel :</label>
+                        <input class="rounded-input" type="text" name="pseudo" id="pseudo" required>
+                    </div>
+                    <div class="items">
+                        <label for="pseudo">Nouveau pseudo :</label>
+                        <input class="rounded-input" type="text" name="pseudo" id="new-pseudo" required>
+                    </div>
+                    <div class="items">
+                        <label for="password">Mot de passe actuel :</label>
+                        <input class="rounded-input" type="text" name="password" id="password" required>
+                        <img id="eye" src="./assets/oeil.png" alt="oeil-logo"/>
+                    </div>
+                    <div class="items">
+                        <label for="password">Nouveau mot de passe :</label>
+                        <input class="rounded-input" type="text" name="password" id="new-password" required>
+                    </div>         
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
